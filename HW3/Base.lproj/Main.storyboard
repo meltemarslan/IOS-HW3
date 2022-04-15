@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Ca-iP-GHO">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HW3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mont" translatesAutoresizingMaskIntoConstraints="NO" id="hAq-6d-k50">
+                                <rect key="frame" x="82" y="104" width="250" height="259.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WATER-REPELLENT PUFFER GILET" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xe-Zr-SGY">
+                                <rect key="frame" x="65.5" y="379.5" width="283" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" name="koyuRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hC-jf-gQZ">
+                                <rect key="frame" x="32" y="416" width="350" height="81.5"/>
+                                <string key="text">Quilted gilet featuring a high neck and hood with adjustable drawstring. Side in-seam zip pockets. Adjustable hem with elastic drawstring. Zip-up front.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8go-Yf-K0F">
+                                <rect key="frame" x="5" y="513.5" width="404" height="31"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SO7-1e-zLv">
+                                        <rect key="frame" x="0.0" y="0.0" width="86" height="31"/>
+                                        <color key="backgroundColor" name="koyuRenk"/>
+                                        <color key="tintColor" name="yaziRenk"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Small"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rD-w2-tvX">
+                                        <rect key="frame" x="106" y="0.0" width="86" height="31"/>
+                                        <color key="backgroundColor" name="koyuRenk"/>
+                                        <color key="tintColor" name="yaziRenk"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Medium"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gvs-6y-Rbl">
+                                        <rect key="frame" x="212" y="0.0" width="86" height="31"/>
+                                        <color key="backgroundColor" name="koyuRenk"/>
+                                        <color key="tintColor" name="yaziRenk"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Large"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6q-Hp-HRP">
+                                        <rect key="frame" x="318" y="0.0" width="86" height="31"/>
+                                        <color key="backgroundColor" name="koyuRenk"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="X Large"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YW2-kl-tg3">
+                                <rect key="frame" x="30" y="560.5" width="49" height="31"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" name="koyuRenk"/>
+                                <color key="highlightedColor" name="koyuRenk"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRq-Pb-P2n">
+                                <rect key="frame" x="109" y="560.5" width="275" height="31"/>
+                                <color key="backgroundColor" name="koyuRenk"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ADD TO BAG"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tested in laboratories for withstanding moderate weather conditions between 10ºC and -5ºC" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bk7-It-AH0">
+                                <rect key="frame" x="20" y="664" width="374" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Materials" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvQ-MG-2hQ">
+                                <rect key="frame" x="165" y="607.5" width="84.5" height="40.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKN-3B-D2u">
+                                <rect key="frame" x="325.5" y="863" width="72.5" height="31"/>
+                                <color key="backgroundColor" name="koyuRenk"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="My Bag"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8E-qa-IgB">
+                                <rect key="frame" x="16" y="863" width="62.5" height="31"/>
+                                <color key="backgroundColor" name="koyuRenk"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="XKN-3B-D2u" secondAttribute="trailing" constant="16" id="11g-84-00n"/>
+                            <constraint firstItem="kvQ-MG-2hQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3mq-aL-9TE"/>
+                            <constraint firstAttribute="trailing" secondItem="8hC-jf-gQZ" secondAttribute="trailing" constant="32" id="5ab-Af-B28"/>
+                            <constraint firstItem="6xe-Zr-SGY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E8u-Ix-8zD"/>
+                            <constraint firstItem="HRq-Pb-P2n" firstAttribute="leading" secondItem="YW2-kl-tg3" secondAttribute="trailing" constant="30" id="FI0-bf-bVq"/>
+                            <constraint firstItem="kvQ-MG-2hQ" firstAttribute="top" secondItem="HRq-Pb-P2n" secondAttribute="bottom" constant="16" id="Ffd-DJ-lSs"/>
+                            <constraint firstAttribute="bottom" secondItem="R8E-qa-IgB" secondAttribute="bottom" constant="32" id="GDs-VO-gw9"/>
+                            <constraint firstItem="YW2-kl-tg3" firstAttribute="top" secondItem="8go-Yf-K0F" secondAttribute="bottom" constant="16" id="HQj-ox-nJa"/>
+                            <constraint firstItem="R8E-qa-IgB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="32" id="LOB-MA-vHz"/>
+                            <constraint firstItem="R8E-qa-IgB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="MqP-1A-uHK"/>
+                            <constraint firstItem="8hC-jf-gQZ" firstAttribute="top" secondItem="6xe-Zr-SGY" secondAttribute="bottom" constant="16" id="NMu-aL-KgJ"/>
+                            <constraint firstAttribute="trailing" secondItem="8go-Yf-K0F" secondAttribute="trailing" constant="5" id="OaM-r8-pXn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HRq-Pb-P2n" secondAttribute="trailing" constant="30" id="Ovb-GX-9Ef"/>
+                            <constraint firstItem="8go-Yf-K0F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VZ9-B6-h51"/>
+                            <constraint firstItem="6xe-Zr-SGY" firstAttribute="top" secondItem="hAq-6d-k50" secondAttribute="bottom" constant="16" id="YLV-Mp-GuG"/>
+                            <constraint firstItem="HRq-Pb-P2n" firstAttribute="top" secondItem="8go-Yf-K0F" secondAttribute="bottom" constant="16" id="aXw-EW-lCN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XKN-3B-D2u" secondAttribute="trailing" constant="16" id="bnI-4K-02V"/>
+                            <constraint firstItem="HRq-Pb-P2n" firstAttribute="centerY" secondItem="YW2-kl-tg3" secondAttribute="centerY" id="cGO-AU-U0Q"/>
+                            <constraint firstItem="bk7-It-AH0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="esv-2G-wSP"/>
+                            <constraint firstAttribute="bottom" secondItem="XKN-3B-D2u" secondAttribute="bottom" constant="32" id="ezm-2a-YBU"/>
+                            <constraint firstItem="8go-Yf-K0F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="hBQ-TF-cZP"/>
+                            <constraint firstItem="R8E-qa-IgB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="kA1-ci-P5K"/>
+                            <constraint firstItem="hAq-6d-k50" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="lpR-2F-daZ"/>
+                            <constraint firstItem="8hC-jf-gQZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="32" id="mAm-0A-XXQ"/>
+                            <constraint firstItem="hAq-6d-k50" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n62-vi-azm"/>
+                            <constraint firstItem="YW2-kl-tg3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="oiw-Me-I1n"/>
+                            <constraint firstItem="bk7-It-AH0" firstAttribute="top" secondItem="YW2-kl-tg3" secondAttribute="bottom" constant="72.5" id="onw-cG-HD1"/>
+                            <constraint firstItem="XKN-3B-D2u" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="32" id="tsf-8B-4SI"/>
+                            <constraint firstAttribute="trailing" secondItem="bk7-It-AH0" secondAttribute="trailing" constant="20" id="uFl-Rj-mQg"/>
+                            <constraint firstItem="8go-Yf-K0F" firstAttribute="top" secondItem="8hC-jf-gQZ" secondAttribute="bottom" constant="16" id="vsb-OA-1XZ"/>
+                            <constraint firstItem="bk7-It-AH0" firstAttribute="top" secondItem="kvQ-MG-2hQ" secondAttribute="bottom" constant="16" id="xAw-3A-HjM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WG7-xz-KqU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.92753623188412" y="97.767857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ULl-Un-khs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Ca-iP-GHO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rTJ-6e-UgU">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3oC-xN-TeG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0TP-U7-ZUe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mont" width="250" height="259.5"/>
+        <namedColor name="koyuRenk">
+            <color red="0.29411764705882354" green="0.63921568627450975" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
